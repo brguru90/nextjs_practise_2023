@@ -18,7 +18,7 @@ export default function SideBar() {
                 <li><Link href="/static_paths_fallback/1">static path param with fallback[SSG]</Link></li>
                 <li><Link href="/static_paths_fallback/10">static path param with fallback on undefined path(delayed)[SSG]</Link></li>
                 <li><Link href="/static_paths_fallback/110">static path param with fallback on unhandled path[SSG]</Link></li>
-                <li>ISR </li>
+                <li><Link href="/isr">Incremental static regeneration[ISR]</Link></li>
                 <li><Link href="/server_side">Server side[SSR]</Link></li>
             </ul>
         </div>
